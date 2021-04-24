@@ -1,0 +1,12 @@
+.about-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-wrapper {
+    display: flex;
+}
+
+.about-wrapper > img {
+    margin-right: 30px;
+}
