@@ -1,10 +1,12 @@
-import React from 'react'
+import React from 'react';
+import Heading from './Heading';
 
 function AboutSection() {
     return (
         <section className='about-section'>
-            <h2>ABOUT</h2>
-            <span>私について</span>
+            <Heading
+            heading='ABOUT'
+            JapaneseHeading='私について' />
         </section>
     )
 }
