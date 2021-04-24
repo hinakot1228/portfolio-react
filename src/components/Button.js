@@ -1,11 +1,10 @@
 import React from 'react';
 import './Button.css';
-import {Link} from 'react-router-dom';
+
 
 const STYLES = ['btn--primary', 'btn--outline'];
 
 export const Button = ({
-    children,
     type,
     onClick,
     buttonStyle
@@ -16,13 +15,15 @@ export const Button = ({
 
     return (
         <>
-            <button
-            className={`btn ${checkButtonStyle}`} 
-            onClick={onClick}
-            type={type}
-            >
-                {children}
-            </button>
+            <div className='btn-wrapper'>
+                <button
+                className={`btn ${checkButtonStyle}`} 
+                onClick={onClick}
+                type={type}
+                >
+                    View More
+                </button>
+            </div>
         </>
 
     )
