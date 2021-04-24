@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 20px;
 }
 .heading-container > h2 {
     margin-bottom: 10px;
