@@ -3,6 +3,7 @@ import '../../App.css';
 import Main from '../Main';
 import AboutSection from '../AboutSection';
 import WorksSection from '../WorksSection';
+import ContactSection from '../ContactSection';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Main />
             <AboutSection />
             <WorksSection />
+            <ContactSection />
 
         </>
     )
