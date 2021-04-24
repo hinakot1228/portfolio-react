@@ -3,6 +3,8 @@ import Heading from './Heading';
 import './WorksSection.css';
 import {Link} from 'react-router-dom';
 import {Button} from './Button';
+import WorksSlider from './WorksSlider';
+
 
 function WorksSection() {
     return (
@@ -12,7 +14,7 @@ function WorksSection() {
             JapaneseHeading='制作したもの' />
 
             <div className='works-wrapper'> 
-                
+                <WorksSlider />
             </div>
             
             <Link to='/works'>

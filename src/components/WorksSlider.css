@@ -1,0 +1,9 @@
+.slider-container {
+    width: 80%;
+    margin: 0 auto;
+    height: 300px;
+}
+
+.slick-slide {
+    padding: 0 15px;
+  }
