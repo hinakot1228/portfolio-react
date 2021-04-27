@@ -5,6 +5,7 @@ import Footer from '../Footer';
 import ProfileSection from '../ProfileSection';
 import SkillsSection from '../SkillsSection';
 import CareerSection from '../CareerSection';
+import VisionSection from '../VisionSection';
 
 
 function About() {
@@ -16,6 +17,7 @@ function About() {
             <ProfileSection />
             <SkillsSection />
             <CareerSection />
+            <VisionSection />
             <Footer />
         </>
     )
