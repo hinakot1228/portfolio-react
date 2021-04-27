@@ -4,7 +4,7 @@ import './WorksSideBar.css';
 function WorksSideBar() {
     return (
         <>
-            <div className='works-sidebar'>
+            <div className='works-sidebar works-sidebar--fixed'>
                 <button className='sodebar-btn'>
                     Webサイト
                 </button>
