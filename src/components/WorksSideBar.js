@@ -4,9 +4,12 @@ import './WorksSideBar.css';
 function WorksSideBar() {
     return (
         <>
-            <div>
-                <button>
+            <div className='works-sidebar'>
+                <button className='sodebar-btn'>
                     Webサイト
+                </button>
+                <button className='sodebar-btn'>
+                    Webアプリ
                 </button>
             </div>
         </>
@@ -14,15 +17,3 @@ function WorksSideBar() {
 }
 
 export default WorksSideBar;
-
-            <div className='btn-wrapper'>
-                <Link to='/contact'>
-                    <button
-                    className={`btn ${checkButtonStyle}`} 
-                    onClick={onClick}
-                    type={type}
-                    >
-                        Contact Me
-                    </button>
-                </Link>
-            </div>
