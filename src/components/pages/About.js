@@ -4,6 +4,7 @@ import Heading from '../Heading';
 import Footer from '../Footer';
 import ProfileSection from '../ProfileSection';
 import SkillsSection from '../SkillsSection';
+import CareerSection from '../CareerSection';
 
 
 function About() {
@@ -14,6 +15,7 @@ function About() {
             JapaneseHeading='私について' />
             <ProfileSection />
             <SkillsSection />
+            <CareerSection />
             <Footer />
         </>
     )
