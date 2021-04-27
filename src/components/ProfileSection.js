@@ -1,11 +1,10 @@
 import React from 'react';
-import './ProfileSection.css';
 import AboutHeading from './AboutHeading';
 
 function ProfileSection() {
     return (
         <>
-            <section className='profile-section'>
+            <section className='about-page-section'>
                 <AboutHeading
                 heading='Profile'
                 JapaneseHeading='プロフィール' />
