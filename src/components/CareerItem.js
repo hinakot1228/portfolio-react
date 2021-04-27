@@ -4,15 +4,15 @@ import './CareerItem.css';
 function CareerItem(props) {
     return (
         <>
-            <div className='career-item'>
-                <div>
-                    <span className='career-year'>20{props.year}</span>
-                </div>
-                <span className='career-border'></span>
-                <div className='career-content-container'>
-                    <p className='career-content'>{props.content}</p>
-                </div>
-            </div>
+            <ul class="timeline">
+                <li>
+                    <p class="timeline-date">20{props.year}</p>
+                    <div class="timeline-content">
+                    <h4>{props.event}</h4>
+                    {/* <p>{props.content}</p> */}
+                    </div>
+                </li>
+            </ul>
         </>
     )
 }
