@@ -10,6 +10,12 @@
       width: 80%;
       margin: 0 auto;
   }
+
+  .about-page-section {
+    border: 1px black solid;
+    padding: 20px;
+    margin-bottom: 30px;
+}
   
   .home,
   .services,

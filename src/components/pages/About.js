@@ -3,6 +3,7 @@ import '../../App.css';
 import Heading from '../Heading';
 import Footer from '../Footer';
 import ProfileSection from '../ProfileSection';
+import SkillsSection from '../SkillsSection';
 
 
 function About() {
@@ -12,6 +13,7 @@ function About() {
             heading='ABOUT'
             JapaneseHeading='私について' />
             <ProfileSection />
+            <SkillsSection />
             <Footer />
         </>
     )
