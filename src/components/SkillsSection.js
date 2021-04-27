@@ -3,7 +3,6 @@ import './SkillsSection.css';
 import AboutHeading from './AboutHeading';
 import Skill from './Skill';
 
-
 function SkillsSection() {
     return (
         <section className='about-page-section'>
