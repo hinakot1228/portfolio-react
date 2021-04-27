@@ -1,0 +1,10 @@
+.about-heading-container {
+    width: 100%;
+    display: inline-block;
+    display: flex;    
+}
+
+.about-heading-container > h3 {
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
