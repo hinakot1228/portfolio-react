@@ -1,0 +1,25 @@
+.sns-btns {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    margin: 20px;
+}
+
+.sns-btns a {
+    color: black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    /* width: 15%; */
+}
+
+.sns-btn {
+    font-size: 30px;
+}
+
+.sns-btns--fixed {
+    position: sticky;
+    margin-bottom: 0;
+    top: 50%;
+    /* left: 40px; */
+    z-index: 1;
+}
