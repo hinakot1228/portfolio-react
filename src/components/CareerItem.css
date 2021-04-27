@@ -1,0 +1,12 @@
+.career-item {
+    display: flex;
+}
+
+.career-border {
+    border-right: 3px black solid;
+    height: 30px;
+    margin-left: 20px;
+}
+.career-content-container {
+    margin-left: 20px;
+}
