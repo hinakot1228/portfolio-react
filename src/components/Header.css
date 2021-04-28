@@ -37,6 +37,7 @@
     display: flex;
     align-items: center;
     font-weight: bold;
+    background-color: transparent;
   }
   
   .fa-typo3 {
