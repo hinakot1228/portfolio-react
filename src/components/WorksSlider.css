@@ -1,9 +1,17 @@
 .slider-container {
     width: 80%;
     margin: 0 auto;
-    height: 300px;
+    height: 400px;
 }
 
 .slick-slide {
     padding: 0 15px;
+  }
+
+  .slick-prev:before, .slick-next:before {
+      font-size: 40px;
+  }
+
+  .slick-prev {
+      left: -52px;
   }

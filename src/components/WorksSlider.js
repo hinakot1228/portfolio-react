@@ -28,7 +28,7 @@ const SimpleSlider = () =>  {
     };
     const style = {
         margin: 20,
-        height: 200,
+        height: 300,
         color: "#fff",
         background: "#3ab60b"
     };  
@@ -37,20 +37,18 @@ const SimpleSlider = () =>  {
           <div className='slider-container'>
             <Slider {...settings}>
                 <div>
-                <h1 style={style}>1</h1>
+                  <img src={`${process.env.PUBLIC_URL}/website-1.png`} style={style}></img>
                 </div>
                 <div>
-                <h1 style={style}>2</h1>
+                  <img src={`${process.env.PUBLIC_URL}/webapp-1.png`} style={style}></img>
                 </div>
                 <div>
-                <h1 style={style}>3</h1>
+                  <img src={`${process.env.PUBLIC_URL}/website-2.png`} style={style}></img>
                 </div>
                 <div>
-                <h1 style={style}>4</h1>
+                  <img src={`${process.env.PUBLIC_URL}/webapp-2.png`} style={style}></img>
                 </div>
-                <div>
-                <h1 style={style}>5</h1>
-                </div>        
+                 
             </Slider>
         </div>
       </>
