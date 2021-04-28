@@ -13,7 +13,7 @@ function CareerSection() {
                 <div className='career-items'>
                     <CareerItem
                     year='15'
-                    event='クラーク記念高等学校入学'
+                    event='クラーク記念高等学校に入学'
                     />
                     <CareerItem
                     year='16.1-4'
@@ -21,7 +21,7 @@ function CareerSection() {
                     />
                     <CareerItem
                     year='18'
-                    event='クラーク記念高等学校卒業'
+                    event='クラーク記念高等学校を卒業 、埼玉にある私立大学に入学'
                     />
                     <CareerItem
                     year='18.8-9'

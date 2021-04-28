@@ -71,6 +71,12 @@ function SkillsSection() {
                     stars='3'
                     startYear='20'
                     startMonth='11' />
+                    <Skill
+                    icon='fas fa-desktop'
+                    name='Heroku'
+                    stars='3'
+                    startYear='21'
+                    startMonth='1' />
                     
                 </div>                
         </section>

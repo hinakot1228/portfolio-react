@@ -46,10 +46,10 @@
     left: 0;
     overflow: hidden;
     white-space: nowrap;
-    color: orange;
-  background: -webkit-linear-gradient(0deg, #1900f8, #f50202);
+    color: blue;
+  /* background: -webkit-linear-gradient(0deg, #1900f8, #f50202);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 .star5_rating[data-rate="5"]:after{ width: 100%; } /* 星5 */
