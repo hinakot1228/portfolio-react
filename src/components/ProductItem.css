@@ -1,0 +1,14 @@
+.product-container {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.product-img > img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.product-info {
+    margin-bottom: 60px;
+    font-size: 20px;
+}
