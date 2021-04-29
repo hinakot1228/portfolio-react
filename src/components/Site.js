@@ -7,7 +7,8 @@ class Site extends Component {
   constructor(props){
     super(props);
     this.state = {
-      text: '',
+      category: '',
+      name: '',
     }
 
     this.handleChange = this.handleChange.bind(this)
@@ -23,7 +24,10 @@ class Site extends Component {
   handleClick(){
     this.props.history.push({
       pathname: "/product",
-      state: { text: this.state.text }
+      state: { 
+          category: this.state.category,
+          name: this.state.name
+      }
   });
   }
 
@@ -35,11 +39,11 @@ class Site extends Component {
                 {/* <img className='site-img' src={`${process.env.PUBLIC_URL}/{props.image}`}></img> */}
                 <img className='site-img' src={`${process.env.PUBLIC_URL}/website-2.png`}></img>
                 <div className='site-info'>
-                    <span className='site-category'>
-                        {this.state.category}
+                    <span value={this.state.category} className='site-category'>
+                        {this.props.category}
                     </span>
                     <span className='site-name'>
-                        {this.state.name}
+                        {this.props.name}
                     </span>
                     <button onClick={this.handleClick}>画面遷移します</button>
                 </div>
