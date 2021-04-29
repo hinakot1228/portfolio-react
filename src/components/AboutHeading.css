@@ -1,10 +1,17 @@
 .about-heading-container {
     width: 100%;
     display: inline-block;
-    display: flex;    
+    display: flex;
+    margin-bottom: 20px;
+
 }
 
 .about-heading-container > h3 {
     padding-right: 10px;
-    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.about-heading-container > span {
+    font-size: 20px;
+    align-self: flex-end;
 }

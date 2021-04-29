@@ -12,18 +12,19 @@ function AboutSection() {
             JapaneseHeading='私について' />
 
             <div className='about-wrapper'> 
-                <div className='about-img'>
-                    <img src="http://placehold.jp/300x300.png"></img>
-                </div>
+                {/* <div className='about-img'>
+                    <img src=""></img>
+                </div> */}
                 <div className='about-text'>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius et esse doloribus non temporibus illum corrupti, officiis aperiam iste iure voluptate molestiae rem exercitationem suscipit vitae laudantium doloremque molestias vel?
-                    </p>                              
+                        21歳大学4年生Tanaka Hinakoと申します。大学では外国語や外国の文化・歴史について勉強をしています。<br></br>また、2020年8月からプログラミング学習を始め、６カ月間スクールに通いHTML,CSS,PHP,Laravel,MySQLなどを身につけました。<br></br>2021年3月からエンジニア長期インターンをしています！
+                    </p>
+                    <Link to='/about'>
+                        <Button buttonStyle='btn--outline' />
+                    </Link>                           
                 </div>
             </div>
-            <Link to='/about'>
-                <Button buttonStyle='btn--outline' />
-            </Link>
+            
         </section>
     )
 }

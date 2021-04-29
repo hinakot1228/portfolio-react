@@ -9,7 +9,6 @@
     color: black;
     margin-bottom: 10px;
     cursor: pointer;
-    /* width: 15%; */
 }
 
 .sns-btn {
@@ -20,6 +19,5 @@
     position: sticky;
     margin-bottom: 0;
     top: 50%;
-    /* left: 40px; */
     z-index: 1;
 }

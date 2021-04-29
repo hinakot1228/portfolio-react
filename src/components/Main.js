@@ -4,11 +4,14 @@ import './Main.css';
 
 function Main() {
     return (
-        <div className='main-container'>
+        <section className='main-container'>
             <div className='main-background'>
-                <h1>Hinako Tanaka</h1>
+                <img src={`${process.env.PUBLIC_URL}/coding-screen.jpg`}></img>
+                <div className='main-heading-container'>
+                    <h1>Hinako Tanaka</h1>
+                </div>
             </div>
-        </div>
+        </section>
     )
 }
 

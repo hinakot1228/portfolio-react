@@ -1,8 +1,55 @@
 .main-container {
-    background-color: #DAF0FC;
-    height: 600px;
-    width: 100%;
-    display: flex;
+    /* background-color: rgb(225,229,230); */
+    /* height: 80%; */
+    padding: 0;
+    height: 100%;
+    /* width: 100%; */
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    /* z-index: -10; */
 }
+
+.main-background {
+    height: 777px;
+}
+
+.main-background >img {
+    height: 500px;
+    /* padding: 15px 15px 30px; */
+    /* background-color: #fff; */
+    border: 4px solid black;
+    display: inline-block;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* position: relative;
+    top: 30px;
+    left: 200px; */
+}
+.main-heading-container {
+    position: relative;
+    top: -200px;
+    left: 50%;
+}
+
+.main-heading-container > h1 {
+    /* position: relative; */
+    /* padding: 1rem 2rem calc(1rem + 8px); */
+    padding: 140px;
+    background: #fff;
+    border: 4px solid black;
+    display: inline-block;
+    /* font-size: 20px; */
+    /* z-index: 1; */
+}
+
+/* .main-heading-container > h1::before {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    content: '';
+    border: 4px solid #000;
+    z-index: -1;
+} */

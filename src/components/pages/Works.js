@@ -4,7 +4,6 @@ import Heading from '../Heading';
 import WorksSideBar from '../WorksSideBar';
 import ContactSection from '../ContactSection';
 import SnsButtons from '../SnsButtons';
-import Footer from '../Footer';
 
 function Works() {
     return (
@@ -15,11 +14,6 @@ function Works() {
             <WorksSideBar />
             <SnsButtons />
             <ContactSection />
-            <ContactSection />
-            <ContactSection />
-            <ContactSection />
-            <ContactSection />
-            <Footer />
         </>
     )
 }

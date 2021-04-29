@@ -9,7 +9,7 @@ function Skill(props) {
                     <i className={props.icon}></i>
                 </div>
                 <div className='skill-info'>
-                    <span>{props.name}</span>
+                    <span className='skill-name'>{props.name}</span>
                     <span className="star5_rating" data-rate={props.stars}></span>
                     <span>20{props.startYear}年{props.startMonth}月～</span>
                 </div>

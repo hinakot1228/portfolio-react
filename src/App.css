@@ -2,7 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: rgb(225,229,230); */
+
   }
 
   section {
@@ -12,7 +14,7 @@
   }
 
   .about-page-section {
-    border: 1px black solid;
+    border: 4px black solid;
     padding: 20px;
     margin-bottom: 30px;
 }

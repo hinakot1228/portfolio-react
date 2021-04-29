@@ -1,7 +1,8 @@
 .skill-item {
     display: flex;
-    width: 30%;
-    border: 1px black solid;
+    justify-content: center;
+    width: 20%;
+    /* border: 1px black solid; */
     padding: 10px;
     margin: 10px;
 }
@@ -9,7 +10,7 @@
     padding-right: 10px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 
 .skill-icon i {
@@ -21,13 +22,17 @@
     flex-direction: column;
 }
 
+.skill-name {
+    font-size: 20px;
+}
+
 .star5_rating{
     position: relative;
     z-index: 0;
     display: inline-block;
     white-space: nowrap;
     color: #CCCCCC; /* グレーカラー 自由に設定化 */
-    /*font-size: 30px; フォントサイズ 自由に設定化 */
+    font-size: 25px; /* フォントサイズ 自由に設定化 */
 }
 
 .star5_rating:before, .star5_rating:after{
@@ -41,7 +46,10 @@
     left: 0;
     overflow: hidden;
     white-space: nowrap;
-    color: #ffcf32; /* イエローカラー 自由に設定化 */
+    color: blue;
+  /* background: -webkit-linear-gradient(0deg, #1900f8, #f50202);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
 }
 
 .star5_rating[data-rate="5"]:after{ width: 100%; } /* 星5 */

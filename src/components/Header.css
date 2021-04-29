@@ -2,18 +2,26 @@
     /* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
     background-color: transparent;
     height: 80px;
-    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     font-size: 1.2rem;
     position: sticky;
     top: 0;
     z-index: 999;
   }
+
+  .navbar-logo-container {
+    border: 2px solid black;
+    padding: 8px;
+    background: linear-gradient(124deg,rgb(72, 72, 248), rgb(252, 50, 50) );
+  }
   
   .navbar-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 80px;
     max-width: 1500px;
@@ -22,32 +30,40 @@
   .navbar-logo {
     color: black;
     justify-self: start;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1rem;
     display: flex;
     align-items: center;
+    font-weight: bold;
+    background-color: transparent;
   }
   
   .fa-typo3 {
     margin-left: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 1rem;
   }
   
   .nav-menu {
     display: grid;
     grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
+    /* grid-gap: 10px; */
     list-style: none;
     text-align: center;
-    width: 60vw;
+    /* width: 27vw; */
     justify-content: end;
-    margin-right: 2rem;
+    /* margin-right: 2rem; */
+    border: 2px solid black;
+    font-weight: bold;
   }
   
   .nav-item {
-    height: 80px;
+    height: 100%;
+  }
+
+  .nav-item--border {
+    border-right: 2px solid black;
   }
   
   .nav-links {
@@ -57,10 +73,33 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
+    font-size: 1rem;
+    
   }
   
   .nav-links:hover {
-    border-bottom: 4px solid black;
+    /* border-bottom: 4px solid black; */
+    /* background-color: yellow; */
+    transition: all 0.2s ease-out;
+  }
+  .nav-links--home:hover {
+    /* border-bottom: 4px solid black; */
+    background-color: red;
+    transition: all 0.2s ease-out;
+  }
+  .nav-links--about:hover {
+    /* border-bottom: 4px solid black; */
+    background-color: orange;
+    transition: all 0.2s ease-out;
+  }
+  .nav-links--works:hover {
+    /* border-bottom: 4px solid black; */
+    background-color: yellow;
+    transition: all 0.4s ease-out;
+  }
+  .nav-links--contact:hover {
+    /* border-bottom: 4px solid black; */
+    background-color: yellowgreen;
     transition: all 0.2s ease-out;
   }
   
@@ -114,13 +153,13 @@
       border-radius: 0;
     }
   
-    .navbar-logo {
+    /* .navbar-logo {
       position: absolute;
       top: 0;
       left: 0;
       transform: translate(25%, 50%);
       margin: 0;
-    }
+    } */
   
     .menu-icon {
       display: block;
@@ -133,7 +172,7 @@
     }
   
     .fa-times {
-      color: #fff;
+      color: black;
       font-size: 2rem;
     }
   

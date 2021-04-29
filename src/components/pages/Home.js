@@ -4,7 +4,6 @@ import Main from '../Main';
 import AboutSection from '../AboutSection';
 import WorksSection from '../WorksSection';
 import ContactSection from '../ContactSection';
-import Footer from '../Footer';
 
 function Home() {
     return (
@@ -13,7 +12,6 @@ function Home() {
             <AboutSection />
             <WorksSection />
             <ContactSection />
-            <Footer />
         </>
     )
 }
