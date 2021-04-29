@@ -6,6 +6,8 @@ import SkillsSection from '../SkillsSection';
 import CareerSection from '../CareerSection';
 import VisionSection from '../VisionSection';
 import ContactSection from '../ContactSection';
+import ScrollUp from '../ScrollUp';
+
 
 function About() {
     return (
@@ -18,6 +20,8 @@ function About() {
             <CareerSection />
             <VisionSection />
             <ContactSection />
+            <ScrollUp />
+
         </>
     )
 }
