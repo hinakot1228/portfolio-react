@@ -5,6 +5,7 @@ import WorksSideBar from '../WorksSideBar';
 import SitesIndex from '../SitesIndex';
 import ContactSection from '../ContactSection';
 import SnsButtons from '../SnsButtons';
+import ScrollUp from '../ScrollUp';
 
 function Works() {
     return (
@@ -16,6 +17,8 @@ function Works() {
             <SitesIndex />
             <SnsButtons />
             <ContactSection />
+            <ScrollUp />
+
         </>
     )
 }
