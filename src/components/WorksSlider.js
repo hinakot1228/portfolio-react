@@ -30,7 +30,6 @@ const SimpleSlider = () =>  {
         margin: 10,
         height: 200,
         color: "#fff",
-        background: "#3ab60b"
     };  
     return (
         <>

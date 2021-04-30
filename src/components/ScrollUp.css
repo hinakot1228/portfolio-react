@@ -5,3 +5,10 @@
     bottom: 60px;
 }
 
+@media screen and (max-width: 960px) {
+    .fa-chevron-circle-up {
+        font-size: 35px;
+        left: 85%;
+        background: transparent;
+    }
+}

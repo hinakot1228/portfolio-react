@@ -21,5 +21,10 @@
     top: 50%;
     right: 3%;
     z-index: 1;
-    
+}
+
+@media screen and (max-width: 960px) {
+    .sns-btns {
+        display: none;
+    }
 }

@@ -1,7 +1,12 @@
 .skills-items {
     display: flex;
-    /* justify-content: space-around; */
     flex-wrap: wrap;
     background-color: white;
 
+}
+
+@media screen and (max-width: 960px) {
+    .skills-items {
+        justify-content: space-around;
+    }
 }

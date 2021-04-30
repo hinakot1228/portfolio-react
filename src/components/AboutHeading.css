@@ -17,5 +17,16 @@
     font-size: 20px;
     align-self: flex-end;
     background-color: white;
+}
 
+@media screen and (max-width: 960px) {
+    .about-heading-container {
+        margin-bottom: 13px;
+    }
+    .about-heading-container > span {
+        font-size: 15px;
+    }
+    .about-heading-container > h3 {
+        font-size: 25px;
+    }
 }
