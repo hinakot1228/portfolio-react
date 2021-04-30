@@ -1,19 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './WorksSideBar.css';
+import { Link } from 'react-scroll';
 
-function WorksSideBar() {
+class WorksSideBar extends Component {
+    render() {
     return (
         <>
             <div className='works-sidebar works-sidebar--fixed'>
-                <button className='sodebar-btn'>
-                    Webサイト
-                </button>
-                <button className='sodebar-btn'>
-                    Webアプリ
-                </button>
+                    <a href='#website' className='sodebar-btn'>
+                        Webサイト
+                    </a>
+                    <a href='#webapp' className='sodebar-btn'>
+                        Webアプリ
+                    </a>
             </div>
         </>
     )
+    }
 }
 
 export default WorksSideBar;

@@ -7,6 +7,11 @@
     justify-content: center;
 }
 
+.btn-wrapper > button {
+    background-color: white;
+
+}
+
 .btn {
     padding: 8px 20px;
     /* border-radius: 2px; */
@@ -22,10 +27,11 @@
     background-color: var(--primary);
     color: #242424;
     border: 2px solid var(--primary);
+
 }
 
 .btn--outline {
-    background-color: transparent;
+    background-color: white;
     color: black;
     padding: 8px 20px;
     border: 2px solid var(--primary);

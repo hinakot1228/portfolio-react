@@ -9,6 +9,11 @@
 }
 
 .product-info {
-    margin-bottom: 60px;
-    font-size: 20px;
+    font-size: 17px;
+    background-color: white;
+}
+
+.product-info > p {
+    background-color: white;
+    margin-bottom: 10px;
 }

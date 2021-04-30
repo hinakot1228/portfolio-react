@@ -19,10 +19,11 @@ function AboutSection() {
                     <p>
                         21歳大学4年生Tanaka Hinakoと申します。大学では外国語や外国の文化・歴史について勉強をしています。<br></br>また、2020年8月からプログラミング学習を始め、６カ月間スクールに通いHTML,CSS,PHP,Laravel,MySQLなどを身につけました。<br></br>2021年3月からエンジニア長期インターンをしています！
                     </p>
-                    <Link to='/about'>
-                        <Button buttonStyle='btn--outline' />
-                    </Link>                           
+                                               
                 </div>
+                <Link to='/about'>
+                        <Button buttonStyle='btn--outline' />
+                </Link>
             </div>
             
         </section>

@@ -1,0 +1,13 @@
+.site-container > h3 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.site-wrapper > img {
+    margin-bottom: 20px;
+}
+
+.according-menu-padding {
+    background-color: white;
+    padding: 20px;
+}

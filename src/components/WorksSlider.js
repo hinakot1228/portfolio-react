@@ -27,8 +27,8 @@ const SimpleSlider = () =>  {
       ]
     };
     const style = {
-        margin: 20,
-        height: 300,
+        margin: 10,
+        height: 200,
         color: "#fff",
         background: "#3ab60b"
     };  

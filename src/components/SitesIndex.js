@@ -6,8 +6,9 @@ function SitesIndex() {
     return (
         <>
             <div className='site-items'>
+                <div id='website'></div>
                 <Site 
-                image='website-1.png'
+                image={`${process.env.PUBLIC_URL}/website-1.png`}
                 category='Webサイト'
                 name='韓国ドラマ紹介サイト'
                 url='https://objective-goodall-6b3fca.netlify.app/'
@@ -23,24 +24,7 @@ function SitesIndex() {
                 img='{`${process.env.PUBLIC_URL}/website-1.png`}'
                 />
                 <Site
-                category='Webアプリケーション'
-                name='ストップウォッチ'
-                url='https://epic-haibt-ef2ccd.netlify.app/'
-                github='https://github.com/hinakot1228/stopwatch'
-                dev='テキストエディタ（VSCode）'
-                lang='HTML,CSS,JaveScript'
-                period='?'
-                functions='ストップウォッチ機能'
-                points='JavaScriptを学習して初めて開発したアプリケーションです。
-                HTMLやCSSのスキルが身に付き、新たな技術を学習したいと思いJavaScriptを勉強しました。
-                基本構文を一通り理解し、DOM操作についても勉強した後に、このアプリを作成しました。
-                このアプリケーションでこだわった点は、デザインです。
-                デザインは落ち着いた雰囲気を目指しました。
-                ストップウォッチアプリケーションであるため、シンプルな時計の背景画像にし、スタート・ストップ・リセットのボタンも落ち着いたグレーにしました。
-                また数字のフォントを変更し、オシャレな雰囲気を醸し出しました。'
-                img='{`${process.env.PUBLIC_URL}/website-1.png`}'
-                />
-                <Site
+                image={`${process.env.PUBLIC_URL}/website-2.png`}
                 category='Webサイト'
                 name='韓国食堂サイト'
                 url='https://nospicy-koreanrestaurant.herokuapp.com/'
@@ -60,7 +44,30 @@ function SitesIndex() {
                 そしてPHP、MySQLを使用し、予約フォーム（サニタイズ処理あり）を実装しました。'
                 img='{`${process.env.PUBLIC_URL}/website-1.png`}'
                 />
+                
+                <div id='webapp'></div>
                 <Site
+                image={`${process.env.PUBLIC_URL}/webapp-1.png`}
+                category='Webアプリケーション'
+                name='ストップウォッチ'
+                url='https://epic-haibt-ef2ccd.netlify.app/'
+                github='https://github.com/hinakot1228/stopwatch'
+                dev='テキストエディタ（VSCode）'
+                lang='HTML,CSS,JaveScript'
+                period='?'
+                functions='ストップウォッチ機能'
+                points='JavaScriptを学習して初めて開発したアプリケーションです。
+                HTMLやCSSのスキルが身に付き、新たな技術を学習したいと思いJavaScriptを勉強しました。
+                基本構文を一通り理解し、DOM操作についても勉強した後に、このアプリを作成しました。
+                このアプリケーションでこだわった点は、デザインです。
+                デザインは落ち着いた雰囲気を目指しました。
+                ストップウォッチアプリケーションであるため、シンプルな時計の背景画像にし、スタート・ストップ・リセットのボタンも落ち着いたグレーにしました。
+                また数字のフォントを変更し、オシャレな雰囲気を醸し出しました。'
+                img='{`${process.env.PUBLIC_URL}/website-1.png`}'
+                />
+                
+                <Site
+                image={`${process.env.PUBLIC_URL}/webapp-2.png`}
                 category='Webアプリケーション'
                 name='ドラマ・映画鑑賞記録アプリ'
                 url='https://recordnotes.herokuapp.com/'
