@@ -34,3 +34,10 @@
 .site-wrapper:hover .site-info {
     visibility: visible;
 }
+
+@media screen and (max-width: 960px) {
+    .site-container {
+        width: 80%;
+        margin-bottom: 50px;
+    }
+}

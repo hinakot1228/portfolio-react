@@ -55,13 +55,21 @@
     text-align: center;
 }
 
-/* .main-heading-container > h1::before {
-    position: absolute;
-    top: 5px;
-    left: 5px;
-    width: 100%;
-    height: 100%;
-    content: '';
-    border: 4px solid #000;
-    z-index: -1;
-} */
+@media screen and (max-width: 960px) {
+    .main-background >img {
+        height: auto;
+        width: 80%;
+    }
+
+    .main-heading-container {
+        width: 75%;
+        padding: 40px;
+        top: -75px;
+        left: 20%;
+        border: 3px solid black;
+    }
+
+    .main-background {
+        height: 40vh;
+    }
+}

@@ -14,7 +14,7 @@ function Header() {
                 <nav className='navbar'>
                     <div className='navbar-container'>
                         <div className='navbar-logo-container'>
-                            <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+                            <Link to='/' className='navbar-logo' >
                                 HINAKO TANAKA
                             </Link>
                         </div>

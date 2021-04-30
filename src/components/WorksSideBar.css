@@ -24,3 +24,9 @@
     top: 50px;
     z-index: 1;
 }
+
+@media screen and (max-width: 960px) {
+    .works-sidebar {
+        display: none;
+    }
+}

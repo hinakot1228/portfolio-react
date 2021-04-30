@@ -9,7 +9,6 @@
 
 .btn-wrapper > button {
     background-color: white;
-
 }
 
 .btn {
@@ -40,4 +39,10 @@
 
 .btn--outline:hover {
     background-color: yellow;
+}
+
+@media screen and (max-width: 960px) {
+    .btn-wrapper > button, .btn--outline {
+        background-color: yellow;
+    }
 }

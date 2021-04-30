@@ -5,3 +5,9 @@
 .vision-text > p {
     background-color: white;
 }
+
+@media screen and (max-width: 960px) {
+    .vision-text {
+        font-size: 18px;
+    }
+}
