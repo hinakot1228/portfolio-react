@@ -16,8 +16,10 @@
 }
 
 .sns-btns--fixed {
-    position: sticky;
+    position: fixed;
     margin-bottom: 0;
     top: 50%;
+    right: 3%;
     z-index: 1;
+    
 }
