@@ -8,6 +8,7 @@ import VisionSection from '../VisionSection';
 import ContactSection from '../ContactSection';
 import ScrollUp from '../ScrollUp';
 import SnsButtons from '../SnsButtons';
+import Footer from '../Footer';
 
 function About() {
     return (
@@ -22,7 +23,7 @@ function About() {
             <VisionSection />
             <ContactSection />
             <ScrollUp />
-
+            <Footer />
         </>
     )
 }

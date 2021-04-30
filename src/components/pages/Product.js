@@ -4,7 +4,7 @@ import Heading from '../Heading';
 import ProductItems from '../ProductItems';
 import ScrollUp from '../ScrollUp';
 import SnsButtons from '../SnsButtons';
-
+import Footer from '../Footer';
 
 function Product() {
     return (
@@ -15,6 +15,7 @@ function Product() {
             <SnsButtons />
             <ProductItems />
             <ScrollUp />
+            <Footer />
         </>
     )
 }
