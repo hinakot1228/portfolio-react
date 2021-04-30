@@ -10,6 +10,9 @@ function Contact() {
             heading='Contact'
             JapaneseHeading='お問い合わせ' />
             <ContactForm />
+            <footer className="contact-footer">
+                <small>© 2021 Hinako Tanaka</small>
+            </footer>
         </>
     )
 }

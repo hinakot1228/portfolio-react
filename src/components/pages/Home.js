@@ -6,7 +6,7 @@ import WorksSection from '../WorksSection';
 import ContactSection from '../ContactSection';
 import ScrollUp from '../ScrollUp';
 import SnsButtons from '../SnsButtons';
-
+import Footer from '../Footer';
 
 function Home() {
     return (
@@ -17,6 +17,7 @@ function Home() {
             <WorksSection />
             <ContactSection />
             <ScrollUp />
+            <Footer />
         </>
     )
 }
