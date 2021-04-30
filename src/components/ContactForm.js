@@ -6,7 +6,7 @@ function ContactForm() {
         <>
             <div className='contact-container'>
                 <span>
-                    TwitterのDMからお問い合わせくださいくださいませ。24時間以内に返信いたします！
+                    TwitterのDMからお問い合わせくださいませ。24時間以内に返信いたします！
                 </span> 
                 <a href='https://twitter.com/ohinako1228' className='contact-btn'>
                     <i class="fab fa-twitter-square"></i>

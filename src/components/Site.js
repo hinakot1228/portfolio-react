@@ -1,6 +1,14 @@
 import React, { Component } from 'react';
 import { withRouter } from 'react-router-dom';
 import './Site.css';
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
 
 class Site extends Component {
 
@@ -45,8 +53,29 @@ class Site extends Component {
                     <span className='site-name'>
                         {this.props.name}
                     </span>
-                    <button onClick={this.handleClick}>画面遷移します</button>
+                    {/* <button onClick={this.handleClick}>Show It</button> */}
                 </div>
+            </div>
+            <div>
+              <Accordion allowZeroExpanded>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>Show Detail</AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <div className='product-info'>
+                      <p>名前：{this.props.name}</p>
+                      <p>サイト：{this.props.url}</p>
+                      <p>GitHub URL：{this.props.github}</p>
+                      <p>開発環境：{this.props.dev}</p>
+                      <p>使用言語：{this.props.lang}</p>
+                      <p>制作期間：{this.props.period}</p>
+                      <p>機能：{this.props.functions}</p>
+                      <p>こだわりポイント：{this.props.points}</p>
+                  </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              </Accordion>
             </div>
         </div>
     </>

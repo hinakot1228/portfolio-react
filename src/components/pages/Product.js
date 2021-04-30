@@ -3,6 +3,7 @@ import '../../App.css';
 import Heading from '../Heading';
 import ProductItems from '../ProductItems';
 import ScrollUp from '../ScrollUp';
+import SnsButtons from '../SnsButtons';
 
 
 function Product() {
@@ -11,6 +12,7 @@ function Product() {
             <Heading
             heading='PRODUCT'
             JapaneseHeading='制作したもの' />
+            <SnsButtons />
             <ProductItems />
             <ScrollUp />
         </>

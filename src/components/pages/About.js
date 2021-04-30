@@ -7,7 +7,7 @@ import CareerSection from '../CareerSection';
 import VisionSection from '../VisionSection';
 import ContactSection from '../ContactSection';
 import ScrollUp from '../ScrollUp';
-
+import SnsButtons from '../SnsButtons';
 
 function About() {
     return (
@@ -15,6 +15,7 @@ function About() {
             <Heading
             heading='ABOUT'
             JapaneseHeading='私について' />
+            <SnsButtons />
             <ProfileSection />
             <SkillsSection />
             <CareerSection />
