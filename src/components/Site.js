@@ -1,25 +1,86 @@
-import React from 'react';
+import React, { Component } from 'react';
+import { withRouter } from 'react-router-dom';
 import './Site.css';
+import {
+  Accordion,
+  AccordionItem,
+  AccordionItemHeading,
+  AccordionItemButton,
+  AccordionItemPanel,
+} from "react-accessible-accordion";
+import "react-accessible-accordion/dist/fancy-example.css";
 
-function Site(props) {
+class Site extends Component {
+
+  constructor(props){
+    super(props);
+    this.state = {
+      category: '',
+      name: '',
+    }
+
+    this.handleChange = this.handleChange.bind(this)
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleChange(e){
+    this.setState({
+      text: e.target.value
+    })
+  }
+
+  handleClick(){
+    this.props.history.push({
+      pathname: "/product",
+      state: { 
+          category: this.state.category,
+          name: this.state.name
+      }
+  });
+  }
+
+  render() {
     return (
         <>
-            <div className='site-container'>
-                <div className='site-wrapper'>
-                    {/* <img className='site-img' src={`${process.env.PUBLIC_URL}/{props.image}`}></img> */}
-                    <img className='site-img' src={`${process.env.PUBLIC_URL}/website-2.png`}></img>
-                    <div className='site-info'>
-                        <span className='site-category'>
-                            {props.category}
-                        </span>
-                        <span className='site-name'>
-                            {props.name}
-                        </span>
-                    </div>
+        <div className='site-container'>
+            <div className='site-wrapper'>
+                {/* <img className='site-img' src={`${process.env.PUBLIC_URL}/{props.image}`}></img> */}
+                <img className='site-img' src={`${process.env.PUBLIC_URL}/website-2.png`}></img>
+                <div className='site-info'>
+                    <span value={this.state.category} className='site-category'>
+                        {this.props.category}
+                    </span>
+                    <span className='site-name'>
+                        {this.props.name}
+                    </span>
+                    {/* <button onClick={this.handleClick}>Show It</button> */}
                 </div>
             </div>
-        </>
-    )
+            <div>
+              <Accordion allowZeroExpanded>
+                <AccordionItem>
+                  <AccordionItemHeading>
+                    <AccordionItemButton>Show Detail</AccordionItemButton>
+                  </AccordionItemHeading>
+                  <AccordionItemPanel>
+                    <div className='product-info'>
+                      <p>名前：{this.props.name}</p>
+                      <p>サイト：{this.props.url}</p>
+                      <p>GitHub URL：{this.props.github}</p>
+                      <p>開発環境：{this.props.dev}</p>
+                      <p>使用言語：{this.props.lang}</p>
+                      <p>制作期間：{this.props.period}</p>
+                      <p>機能：{this.props.functions}</p>
+                      <p>こだわりポイント：{this.props.points}</p>
+                  </div>
+                  </AccordionItemPanel>
+                </AccordionItem>
+              </Accordion>
+            </div>
+        </div>
+    </>
+    );
+  }
 }
 
-export default Site;
+export default withRouter(Site)

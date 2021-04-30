@@ -5,11 +5,14 @@ import AboutSection from '../AboutSection';
 import WorksSection from '../WorksSection';
 import ContactSection from '../ContactSection';
 import ScrollUp from '../ScrollUp';
+import SnsButtons from '../SnsButtons';
+
 
 function Home() {
     return (
         <>
             <Main />
+            <SnsButtons />
             <AboutSection />
             <WorksSection />
             <ContactSection />
