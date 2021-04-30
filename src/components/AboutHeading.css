@@ -3,15 +3,19 @@
     display: inline-block;
     display: flex;
     margin-bottom: 20px;
-
+    background-color: white;
 }
 
 .about-heading-container > h3 {
     padding-right: 10px;
     font-size: 30px;
+    background-color: white;
+
 }
 
 .about-heading-container > span {
     font-size: 20px;
     align-self: flex-end;
+    background-color: white;
+
 }

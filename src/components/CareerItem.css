@@ -4,6 +4,14 @@
   }
   .timeline > li {
     margin-bottom: 60px;
+    background-color: white;
+  }
+  .timeline > li > p,.timeline-content, .timeline-content > p {
+    background-color: white;
+
+  }
+  .timeline-content {
+    background-color: white;
   }
   
   /* for Desktop */

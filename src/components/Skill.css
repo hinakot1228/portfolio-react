@@ -5,25 +5,40 @@
     /* border: 1px black solid; */
     padding: 10px;
     margin: 10px;
+    background-color: white;
+
 }
 .skill-icon {
     padding-right: 10px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
+    background-color: white;
+
 }
 
 .skill-icon i {
     font-size: 50px;
+    background-color: white;
+
 }
 
 .skill-info {
     display: flex;
     flex-direction: column;
+    background-color: white;
+
+}
+
+.skill-info > span {
+    background-color: white;
+
 }
 
 .skill-name {
     font-size: 20px;
+    background-color: white;
+
 }
 
 .star5_rating{
@@ -33,6 +48,8 @@
     white-space: nowrap;
     color: #CCCCCC; /* グレーカラー 自由に設定化 */
     font-size: 25px; /* フォントサイズ 自由に設定化 */
+    background-color: white;
+
 }
 
 .star5_rating:before, .star5_rating:after{

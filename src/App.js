@@ -7,11 +7,13 @@ import About from './components/pages/About';
 import Works from './components/pages/Works';
 import Contact from './components/pages/Contact';
 import Product from './components/pages/Product';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
     <>
       <Router>
+      <ScrollToTop>
         <Header />
         <Switch>
           <Route path='/' exact component={Home} />
@@ -20,6 +22,7 @@ function App() {
           <Route path='/contact' exact component={Contact} />
           <Route path='/product' exact component={Product} />
         </Switch>
+        </ScrollToTop>
       </Router>
     </>
   );

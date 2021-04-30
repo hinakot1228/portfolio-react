@@ -1,3 +1,7 @@
 .vision-text {
     font-size: 20px;
 }
+
+.vision-text > p {
+    background-color: white;
+}

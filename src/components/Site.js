@@ -11,6 +11,7 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 
 class Site extends Component {
+  
 
   constructor(props){
     super(props);
@@ -43,18 +44,10 @@ class Site extends Component {
     return (
         <>
         <div className='site-container'>
+          <h3>{this.props.category}「{this.props.name}」</h3>
             <div className='site-wrapper'>
-                {/* <img className='site-img' src={`${process.env.PUBLIC_URL}/{props.image}`}></img> */}
-                <img className='site-img' src={`${process.env.PUBLIC_URL}/website-2.png`}></img>
-                <div className='site-info'>
-                    <span value={this.state.category} className='site-category'>
-                        {this.props.category}
-                    </span>
-                    <span className='site-name'>
-                        {this.props.name}
-                    </span>
-                    {/* <button onClick={this.handleClick}>Show It</button> */}
-                </div>
+                <img className='site-img' src={this.props.image}></img>
+                {/* <img className='site-img' src={`${process.env.PUBLIC_URL}/website-2.png`}></img> */}
             </div>
             <div>
               <Accordion allowZeroExpanded>
@@ -62,7 +55,7 @@ class Site extends Component {
                   <AccordionItemHeading>
                     <AccordionItemButton>Show Detail</AccordionItemButton>
                   </AccordionItemHeading>
-                  <AccordionItemPanel>
+                  <AccordionItemPanel className='according-menu-padding'>
                     <div className='product-info'>
                       <p>名前：{this.props.name}</p>
                       <p>サイト：{this.props.url}</p>
@@ -71,7 +64,7 @@ class Site extends Component {
                       <p>使用言語：{this.props.lang}</p>
                       <p>制作期間：{this.props.period}</p>
                       <p>機能：{this.props.functions}</p>
-                      <p>こだわりポイント：{this.props.points}</p>
+                      <p>こだわりポイント：<br></br>{this.props.points}</p>
                   </div>
                   </AccordionItemPanel>
                 </AccordionItem>
