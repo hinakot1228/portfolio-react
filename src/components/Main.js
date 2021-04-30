@@ -9,6 +9,7 @@ function Main() {
                 <img src={`${process.env.PUBLIC_URL}/coding-screen.jpg`}></img>
                 <div className='main-heading-container'>
                     <h1>Hinako Tanaka</h1>
+                    <span>Web Engineer</span>
                 </div>
             </div>
         </section>
