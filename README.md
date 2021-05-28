@@ -6,6 +6,9 @@
 
 URL：https://hinakot1228.github.io/portfolio-react/
 
+# 制作期間
+12日
+
 # The-View
 ![dd3a0317-f745-4a41-af84-5a15ba46f4d1](https://user-images.githubusercontent.com/74905456/119848239-a0200100-bf46-11eb-966a-8fa98f0b5b07.png)
 
